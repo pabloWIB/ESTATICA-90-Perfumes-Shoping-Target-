@@ -160,8 +160,9 @@ header{
         transform: scale(1);
     }
 }
+
 .headerAnimation{
-    background: url('../IMG/photo.jpg') center center no-repeat;
+    background: url('../IMG/BACKGROUNDS/Background.jpg') center center no-repeat;
     background-size: cover;
     >:nth-child(1){
         transform: translateY(0%);
@@ -279,7 +280,7 @@ header{
         display: flex;
         width: 100%;
         flex-flow: column wrap;
-        background: url('../IMG/photo.jpg');
+        background: url('../IMG/BACKGROUNDS/Background.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         gap: 5rem;
@@ -938,7 +939,7 @@ footer{
 
 // FOOTER---
 
-// FOOTER MEDIAS(1050px) TABLET / PHONE ---
+// FOOTER MEDIAS(1050px) TABLET / fBackground ---
 
 @media(max-width:1050px){
     footer{
@@ -1098,6 +1099,3 @@ footer{
 
     }
 }
-
-// WhatsApp screen ---
-
